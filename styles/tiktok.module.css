@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(25, 25, 26, 0.438);
+    border-radius: 30px;
+    width: 50vw;
+    height: 60%;
+  }
+  
+  .texto{
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+      justify-items: center;
+      width: 80%;
+      height: 5vw;
+      color: white;
+      
+  }
+.escolhaPerfil{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 5vw;
+}
+
+
+.escolhaPerfil button{
+    width: 5vw;
+    height: 1.2vw;
+    background-color: gray;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.carrossel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.tiktok{
+    width: 80%;
+    height: 20vw;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.carrossel button{
+    border-radius: 20px;
+    width: 5vw;
+    height: 1.2vw;
+    border: none;
+    margin:  20px 0;
+    background-color: gray;
+
+
+}

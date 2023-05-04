@@ -1,0 +1,14 @@
+.container {
+  min-height: 70vh;
+  
+  width: 100vw;
+  text-align: center;
+  background: rgb(30, 20, 83);
+  background: linear-gradient(
+    242deg,
+    rgba(30, 20, 83, 1) 0%,
+    rgba(20, 14, 57, 1) 40%,
+    rgba(0, 0, 0, 1) 99%,
+    rgba(10, 7, 28, 1) 100%
+  );
+}

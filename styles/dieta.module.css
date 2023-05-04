@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vw;
+}
+
+.container button{
+    background-color: #201536; /* cor de fundo do botão */
+    border: none; /* remover borda */
+    color: white; /* cor do texto do botão */
+    padding: 12px 24px; /* espaçamento interno */
+    text-align: center; /* centralizar texto */
+    text-decoration: none; /* remover sublinhado */
+    font-size: 16px; /* tamanho da fonte */
+    border-radius: 30px; /* arredondamento das bordas */
+    transition: background-color 0.3s ease; /* transição suave ao mudar a cor de fundo */
+    width: 10vw;
+}
+
+.formulario {
+  height: 25vw;
+  width: 50vw;
+}
+
+.dados {
+  background-color: rgba(0, 0, 0, 0.39);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dados input {
+  width: 17vw;
+  height: 2vw;
+  border-radius: 25px;
+    border:none;
+    text-align: center;
+    
+}
+
+.barra {
+  width: 50%;
+}
+
+.dados input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+
+.botao {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.container button:hover{
+    background-color: #282631; /* cor de fundo do botão quando o mouse passar por cima */
+
+}
+
+
+
+
+
+.containerRecomendacao{
+    border-radius: 20px;
+    min-width: 50vw;
+    min-height: 35vw;
+    width: 90vw;
+    max-width: 100vw ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+
+}
+
+.carrossel{
+    background-color: rgba(35, 17, 82, 0.616);
+    width: 60vw;
+    height: 30vw;
+    margin: auto 20px ;
+    border-radius: 20px;
+    
+}
+
+
+  .macros ul{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items:center;
+    background-color: rgba(35, 17, 82, 0.616);
+    border-radius: 20px;
+    
+}
+
+.macros ul li{
+    margin:10px 20px;
+    width: 10vw;
+    color: white;
+
+    
+  }
+
+
+  .carrossel{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+  }
+
+
+.botaosliders{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 20px ;
+    height: 80%;
+    background-color: white;
+    
+}
+
+.slide{
+    border-radius: 20px ;
+    width: 30vw;
+    height: 24vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+  }

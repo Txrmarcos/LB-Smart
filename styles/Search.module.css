@@ -1,0 +1,39 @@
+.navbar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  width: 50vw;
+  padding: 10px;
+}
+
+.navbar form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.navbar input[type="text"] {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  margin-left: 10px;
+  width: 200px;
+  outline: none;
+  width: 48vw;
+}
+
+.navbar button[type="submit"] {
+  background-image: url("/curso/public/favicon.ico");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: none;
+}

@@ -1,0 +1,79 @@
+.box{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 50vw;
+  height: 15vw;
+  background-color: rgba(25, 25, 26, 0.438);
+  border-radius: 20px;
+  
+}
+
+.container {
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 40%;
+  height: 10vw;
+}
+
+.navS{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navS input{
+  width: 100%;
+border-radius: 20px;
+border: none;
+height: 1.5vw;
+}
+
+.search{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  
+  
+}
+
+.search select{
+  width: 4vw;
+  height: 1.2vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  text-align: center;  
+  
+}
+
+.container button{
+  width: 30%;
+  height: 1.2vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+
+
+}
+
+
+.playlist{
+  width: 15vw;
+  display: flex;
+  justify-content:end;
+  align-items: center;
+}
+
+.slider{
+  width: 11vw;
+  height: 10vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}

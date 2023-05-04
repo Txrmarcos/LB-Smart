@@ -1,0 +1,21 @@
+.footer{
+    background: rgb(30,20,83);
+    background: linear-gradient(52deg, rgba(30,20,83,1) 0%, rgba(20,14,57,1) 40%, rgba(0,0,0,1) 99%, rgba(10,7,28,1) 100%);    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+.footer div {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 0 10px;
+    
+    
+    }
+
